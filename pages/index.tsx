@@ -26,7 +26,10 @@ export default function Home({
 				<title>{siteTitle}</title>
 			</Head>
 			<section className={utilStyles.headingMd}>
-				<p>I am interested in overcoming obstacles, that is surviving.</p>
+				<p>
+					I am interested in overcoming my personal obstacles and the challenges faced by
+					humanity.
+				</p>
 			</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 				<h2 className={utilStyles.headingLg}>Blog</h2>
