@@ -3,14 +3,14 @@ title: "What is Business? : Business as a Lifestyle"
 date: "2023-08-21"
 ---
 
-The term **'business'** is somewhat ambiguous. It is an action of yielding money and doing something that **you** manage, when it is used in daily terms. However, for people who are doing there own business or are very into the business field, all of them have their own definition of business.
+The term **'business'** can be ambiguous. In everyday context, it often refers to activities that yield money and are managed by an individual or entity. However, for those who own or are deeply involved in businesses, **the definition can be quite personal**.
 
-For me, business is made up of 3-axis.
+To me, business revolves around **three core principles**:
 
-First, **my interest**, or the interest of things that are related to me or my business. Me, cofounders, employees, shareholders ecetra. Especially in capitalism, the interest would mean money.
+First, it's about my **personal interests** and the interests of those connected to my business – such as co-founders, employees, and shareholders. In a capitalist system, these interests often equate to financial gain.
 
-Second, **interest of the world in the scope of mine**. This is not the survival condition of a business, but it is important factor for me. It is about, "Do I truly think this contributes to the better world?".
+Second, it's the **global interest within my purview**. While this may not be a survival necessity for a business, it's significant to me. Essentially, I ask, "Do I genuinely believe this contributes to a better world?"
 
-Third, the most important, **what people want**. I guess this is the fundamental condition for businesses to survive. But if this is the only goal for your business, you'd better go to make an opioids for public.
+Third and most crucially, it's **what people desire**. I believe this is the foundational requirement for businesses to thrive. However, if this is the sole focus of your business, you might as well be producing opioids for the masses.
 
-Satisfying all three axis is the way I describe what business is. And this can be extended to our daily lives, in every situation. Satisfying the related entities while making the world better.
+Balancing these three principles defines my concept of business. This perspective can also apply to everyday situations, **ensuring that while catering to associated stakeholders, we also strive for a better world**.
