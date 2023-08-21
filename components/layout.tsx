@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
 
 const name = "Joon Nam";
 export const siteTitle = "Blog | Joon Nam";
@@ -20,7 +20,7 @@ export default function Layout({
 				<link rel="icon" href="/favicon.ico" />
 				<meta
 					name="description"
-					content="Interested in overcoming obstacles, that is surviving."
+					content="I am interested in overcoming my personal obstacles and the challenges faced by humanity."
 				/>
 				<meta property="og:image" content="/images/profile.jpg" />
 				<meta name="og:title" content={siteTitle} />
@@ -35,7 +35,7 @@ export default function Layout({
 							className={utilStyles.borderCircle}
 							height={144}
 							width={144}
-							alt=""
+							alt={name}
 						/>
 						<h1 className={utilStyles.heading2Xl}>{name}</h1>
 					</>
@@ -48,7 +48,7 @@ export default function Layout({
 								className={utilStyles.borderCircle}
 								height={108}
 								width={108}
-								alt=""
+								alt={name}
 							/>
 						</Link>
 						<h2 className={utilStyles.headingLg}>
