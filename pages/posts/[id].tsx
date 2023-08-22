@@ -1,14 +1,14 @@
+import { GetStaticProps, GetStaticPaths } from "next";
 import Head from "next/head";
 import Layout from "../../components/layout";
-import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
+import { getAllPostIds, getPostData } from "../../lib/posts";
 import utilStyles from "../../styles/utils.module.css";
-import { GetStaticProps, GetStaticPaths } from "next";
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	const paths = getAllPostIds();
 	return {
-		paths,
+		paths, // arr of obj which has property params which has property id
 		fallback: false,
 	};
 };
@@ -29,7 +29,7 @@ export default function Post({
 	postData: {
 		title: string;
 		date: string;
-		contentHtml: string;
+		contentHtmlWithNewLine: string;
 	};
 }) {
 	return (
@@ -43,7 +43,7 @@ export default function Post({
 				<Date dateString={postData.date} />
 			</div>
 			<br />
-			<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}></div>
+			<div dangerouslySetInnerHTML={{ __html: postData.contentHtmlWithNewLine }}></div>
 		</Layout>
 	);
 }

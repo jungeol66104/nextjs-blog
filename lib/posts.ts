@@ -55,9 +55,11 @@ export async function getPostData(id: string) {
 
 	const contentHtml = processedContent.toString();
 
+	const contentHtmlWithNewLine = contentHtml.replace(/<\/p>[\s\S]<p>/g, "</p><br/><p>");
+
 	return {
 		id,
-		contentHtml,
+		contentHtmlWithNewLine,
 		...matterResult.data,
 	};
 }
